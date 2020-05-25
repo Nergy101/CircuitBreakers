@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-circuit-breaker-demo",
+  "version": "1.0.0",
+  "description": "nodejs circuit breaker demo by Nergy101",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nergy101 / Christian van Dijk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
