@@ -4,6 +4,7 @@
 The circuit breaker is a software-pattern used in distributed systems where:
 * one can not know if there will be an answer from external services
 * other servers/services within the same architecture could be (temporarily) down
+* it can add an extra layer of security by holding off DDOS attacks
 
 ## What it does
 The CircuitBreaker aims to add retry-logic to *any* type of request. In this example HTTP requests are used.
